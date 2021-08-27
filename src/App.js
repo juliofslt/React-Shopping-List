@@ -15,7 +15,7 @@ const App = () => {
 	const [showForm, setShowForm] = useState(false)
 
 	// Items state
-	const [items, setItems] = useState([{item: "Onions", quantity: '3', important: true, id:1}])
+	const [items, setItems] = useState([])
 
 	// Show edit modal state
 	const [editModal, setEditModal] = useState(false)
